@@ -1,0 +1,50 @@
+/* Apply Dark Background to Entire App */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Toolbar Styling */
+  .app-toolbar {
+    background-color: #1e1e1e !important; /* Dark toolbar */
+    color: #ffffff;
+  }
+  
+  /* Spacer for alignment */
+  .spacer {
+    flex: 1;
+  }
+  
+  /* Dark Footer Styling */
+  .app-footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Image */
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Dark theme for Material Icons */
+  mat-icon {
+    color: #bb86fc !important; /* Purple accent */
+  }
+  
+  /* Text Styling */
+  h2, p {
+    color: #e0e0e0; /* Light text */
+  }
+  
