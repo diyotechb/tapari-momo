@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
-import logo from "@/assets/logo.png";
+
 
 const hours = [
   { day: "Monday", time: "Closed" },
@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="MoMo" className="h-10 w-10" />
+              <img src="/logo.png" alt="MoMo" className="h-10 w-10" />
               <span className="font-heading text-2xl font-bold">Tapari Momo</span>
             </div>
             <p className="text-primary-foreground/70 font-body leading-relaxed mb-4">
@@ -30,7 +30,7 @@ const Footer = () => {
               </a>
               <a href="https://www.tiktok.com/@taparimomonova" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-accent transition-colors">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-[22px] h-[22px]">
-                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.69a8.23 8.23 0 0 0 4.76 1.51v-3.5a4.82 4.82 0 0 1-1-.01z"/>
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.69a8.23 8.23 0 0 0 4.76 1.51v-3.5a4.82 4.82 0 0 1-1-.01z" />
                 </svg>
               </a>
             </div>

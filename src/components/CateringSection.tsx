@@ -1,4 +1,4 @@
-import cateringImg from "@/assets/catering.jpg";
+
 
 const CateringSection = () => {
   return (
@@ -6,7 +6,7 @@ const CateringSection = () => {
       <div className="container">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-lg overflow-hidden shadow-xl order-2 md:order-1">
-            <img src={cateringImg} alt="Catering Setup" loading="lazy" width={800} height={600} className="w-full h-full object-cover" />
+            <img src="/catering.jpg" alt="Catering Setup" loading="lazy" width={800} height={600} className="w-full h-full object-cover" />
           </div>
           <div className="order-1 md:order-2">
             <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-2">Events & Parties</p>

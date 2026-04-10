@@ -1,4 +1,4 @@
-import frozenImg from "@/assets/frozen-momo.jpg";
+
 
 const FrozenMomo = () => {
   return (
@@ -11,7 +11,7 @@ const FrozenMomo = () => {
               Frozen MoMo Packs
             </h2>
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              Enjoy our handmade momos at home! Our frozen packs are perfect for a quick, delicious meal anytime. 
+              Enjoy our handmade momos at home! Our frozen packs are perfect for a quick, delicious meal anytime.
               Simply steam or fry and serve with our signature dipping sauce.
             </p>
             <ul className="space-y-3 text-foreground font-body">
@@ -30,7 +30,7 @@ const FrozenMomo = () => {
             </ul>
           </div>
           <div className="rounded-lg overflow-hidden shadow-xl">
-            <img src={frozenImg} alt="Frozen Momo Packs" loading="lazy" width={800} height={600} className="w-full h-full object-cover" />
+            <img src="/frozen-momo.jpg" alt="Frozen Momo Packs" loading="lazy" width={800} height={600} className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
